@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/estilos.css'>
+</head>
+<body>
+    <!-- contenedor calculadora -->
+    <div class="container">
+        <!-- div para los calculadora -->
+        <div class="column">
+            <h1 style="text-align: center;">calculadora</h1>
+
+            <div>
+                <input id="data" type="text" disabled />
+            </div>
+                <!-- div para los numeros y propiedades -->
+            <div class="calculator-data row">
+                <!-- div para los numeros -->
+                <div class="row" style="width: 90%; flex-wrap: wrap;">
+                    <input type="button" class="btn-number" onclick= "" value="1">
+                    <input type="button" class="btn-number"onclick= "" value="2">
+                    <input type="button" class="btn-number"onclick= "" value="3">
+                    <input type="button" class="btn-number"onclick= "" value="4">
+                    <input type="button" class="btn-number" onclick= "" value="5">
+                    <input type="button" class="btn-number"onclick= "" value="6">
+                    <input type="button" class="btn-number"onclick= "" value="7">
+                    <input type="button" class="btn-number"onclick= "" value="8">
+                    <input type="button" class="btn-number"onclick= "" value="9">
+                    <input type="button" class="btn-number"onclick= "" value="Limpiar">
+                    <input type="button" class="btn-number"onclick= "" value="0">
+                    <input type="button" class="btn-number" onclick= "" value="=">
+                </div>
+            
+                <!-- div para las propiedades-->
+                <div class="numero">
+                    <input type="button" class="btn-operator" onclick= "" value="+">
+                    <input type="button" class="btn-operator" onclick= "" value="-">
+                    <input type="button" class="btn-operator" onclick= "" value="*">
+                    <input type="button" class="btn-operator" onclick= "" value="/">
+                </div>
+            </div>  
+
+        </div>
+   </div>
+
+         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="./jss/javascript.js"></script>
+</body>
+
+</html>
